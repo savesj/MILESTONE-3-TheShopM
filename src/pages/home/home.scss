@@ -1,7 +1,9 @@
 .home{
-    background-color: #203150;
-    .title {
-        color: white;
-
-    }
+    display: flex;
+    
+.homeContainer{
+    background-color: lightblue;
+    flex: 2;
+}
+    
 }
