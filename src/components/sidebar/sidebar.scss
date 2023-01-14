@@ -1,4 +1,50 @@
 .sidebar{
     background-color: #203150;
     flex: 1;
+    border-right: 0.5px solid #203150;
+    min-height: 100vh ;
+    
+
+    .top{
+        background-color: white;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+            color:#203150;
+
+        }
+
+    }
+    hr{
+        height: 0;
+        border: 0.5px solid darkgray;
+    }
+    .center{
+        padding-left: 15px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title{
+                font-size: 15px;
+                font-weight: bold;
+                color: white;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+            }
+        }
+    }
 }
