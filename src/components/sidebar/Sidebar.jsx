@@ -17,7 +17,8 @@ import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 const Sidebar= () => {
     return (
         <div className="sidebar"> 
-            <div className="top"><span className="logo">The Shop Manager   </span>
+            <div className="top">
+                <span className="logo">The Shop Manager </span>
             </div>
             <hr  />
             <div className="center">
