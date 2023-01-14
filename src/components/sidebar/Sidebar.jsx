@@ -10,6 +10,9 @@ import AssessmentOutlinedIcon from '@mui/icons-material/AssessmentOutlined';
 import PaidOutlinedIcon from '@mui/icons-material/PaidOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
+import SettingsIcon from '@mui/icons-material/Settings';
+import HelpOutlineRoundedIcon from '@mui/icons-material/HelpOutlineRounded';
+import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
 
 const Sidebar= () => {
     return (
@@ -19,12 +22,12 @@ const Sidebar= () => {
             <hr  />
             <div className="center">
                 <ul>
-                    <p className="title">Main</p>
+                    <p className="title">MAIN</p>
                     <li>
                         <LineAxisRoundedIcon className="icon"/>
                         <span>Dashboard</span>
                     </li>
-                    <p className="title">List</p>
+                    <p className="title">LIST</p>
                     <li>
                         <PeopleOutlineRoundedIcon className="icon"/>
                         <span>Costumers</span>
@@ -37,7 +40,7 @@ const Sidebar= () => {
                         <InventoryRoundedIcon className="icon"/>
                         <span>Inventory</span>
                     </li>
-                    <p className="title">Useful</p>
+                    <p className="title">USEFUL</p>
                     <li>
                         <CalendarMonthOutlinedIcon className="icon"/>
                         <span>Scheldule</span>
@@ -54,12 +57,12 @@ const Sidebar= () => {
                         <AssessmentOutlinedIcon className="icon"/>
                         <span>Reports</span>
                     </li>
-                    <p className="title">Service</p>
+                    <p className="title">SERVICE</p>
                     <li>
                         <PaidOutlinedIcon className="icon"/>
                         <span>Payment</span>
                     </li>
-                    <p className="title">User</p>
+                    <p className="title">USER</p>
                      <li>
                         <AccountCircleOutlinedIcon className="icon"/>
                         <span>Profile</span>
@@ -68,13 +71,28 @@ const Sidebar= () => {
                         <LogoutOutlinedIcon className="icon"/>
                         <span>Logout</span>
                     </li>
+                    <p className="title">SUPPORT</p>
+                     <li>
+                        <SettingsIcon className="icon"/>
+                        <span>Settings</span>
+                    </li>
+                    <li>
+                        <HelpOutlineRoundedIcon className="icon"/>
+                        <span>Help</span>
+                    </li>
+
+                    
                 </ul>
             </div>
-            <div className="bottom">log</div>
+            <div className="bottom">
+                <div className="minimize">
+                    <ArrowBackRoundedIcon/>
+                </div>
+            </div>
         
         
         </div>
-    )
-}
+    );
+};
 
 export default Sidebar 
